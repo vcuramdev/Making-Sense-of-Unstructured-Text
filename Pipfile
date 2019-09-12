@@ -1,0 +1,28 @@
+[[source]]
+name= "csgp-pip-local"
+url = "https://artifacts.prd.costargroup.com/artifactory/api/pypi/csgp-pip-local/simple"
+
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+pylint = "*"
+yapf = "*"
+rope = "*"
+
+[packages]
+flask = "*"
+gunicorn = "*"
+gevent = "*"
+pandas = "*"
+sklearn = "*"
+jupyter = "*"
+ipykernel = "*"
+spacy = "*"
+tqdm = "*"
+scikit-learn = "*"
+
+[requires]
+python_version = "3.7"
